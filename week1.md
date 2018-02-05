@@ -189,7 +189,7 @@
 
 ### For and Conditionals:
 
->Reference1: [Condtitional Statements](https://youtu.be/bk22K1m0890)
+>Reference: [Condtitional Statements](https://youtu.be/bk22K1m0890)
 
 1. Write a python program to add a key value pair to the dictionary if the key does not exist in the given dictionary.
 ```
@@ -264,7 +264,7 @@
 
 ### Complex Functions
 
->Note:Refer tutorial videos mentioned in functions part.
+>Note: Refer tutorial videos mentioned in functions part.
 
 1. Write a function to add two elements which are passed as arguments to the function if they are of the same data type or if they are of different data types print an error message.
 ```
