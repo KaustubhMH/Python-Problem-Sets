@@ -2,7 +2,7 @@
 
 ### Strings:
 
-Reference: [Strings and String Manipulation](https://www.speckbit.com)
+> Reference: [Strings and String Manipulation](https://www.speckbit.com)
 
 1. Write a python program to split a given string at spaces.
 ```
