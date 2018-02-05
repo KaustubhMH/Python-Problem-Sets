@@ -24,15 +24,15 @@
 	"My World"
 ```
 
-3. Write a python program to print a string in multiple lines.
+3. Write a python program to print a string in multiple lines that is separated by '.'.
 ```
 	#Input
-	'Hello! My name is Kaustubh. What is your name?'
+	'Hello. My name is Kaustubh. What is your name?'
 
 	#Output
-	'Hello!
-	My name is Kaustubh.
-	What is your name?'
+	Hello
+	My name is Kaustubh
+	What is your name?
 ```
 
 4. Write a python program to print letters at even indices.
@@ -46,15 +46,15 @@
 
 ### Lists:
 
->Reference: [Lists and Lists Manupulation](https://youtu.be/1yUn-ydsgKk)
+>Reference: [Lists and Lists Manipulation](https://youtu.be/1yUn-ydsgKk)
 
-1. Write a python program to find the sum of all the elements of a list.
+1. Write a python program to find the sum of squares of all the elements of a list.
 ```
 	# Input list
 	[1,2,3,4]
 
 	# Output
-	10
+	32
 ```
 
 2. Write a python program to find the product of all the elements of a list.
@@ -68,8 +68,11 @@
 
 3. Write a python program to add new element to the list.
 ```
-	# Input List
+	# Given List
 	["Hello", "World"]
+	
+	#Input
+	Hey
 
 	#Output List
 	["Hello", "World", "Hey"]
@@ -77,18 +80,18 @@
 
 4. Write a python program to create a copy of a list.
 ```
-	#Input List
+	#Given List in variable X
 	["My", "Name", "Is", "Speckbit"]
 
-	#Output List
+	#Output List from another variable Y
 	["My", "Name", "Is", "Speckbit"]
 ```	
 
 ### Dictionaries:
 
->Reference: [Dictionaries and Dictionary manupulations](https://youtu.be/BSNFRKG1MfE)
+>Reference: [Dictionaries and Dictionary manipulations](https://youtu.be/BSNFRKG1MfE)
 
-1. Write a program to find a word in a dictionary.
+1. Write a program to check if a word is the list of values of a dictionary.
 ```
 	#Input Dictionary
 	{1:"Speckbit", 2:"World", 3:"Quiet"}
@@ -115,15 +118,16 @@
 	Use string formatting while printing.
 ```
 
-3. Write a python program to print the key of a value given as a search element from a dictionary.
+3. Write a python program to print the key of a given value as an input, from a dictionary.
 ```
-	#Input Dictionary
+	#Given Dictionary
 	{'a':"Speckbit", 'b':"World", 'c':"Quiet"}
 
-	Search Element: Speckbit
+	#Input
+	Speckbit
 
 	#Output
-	Key is a.
+	Key is a
 
 	#Clue
 	Use string formatting while printing.
@@ -133,9 +137,9 @@
 ```
 	Inputs
 	USN Name
-	12	Abc
-	11	cd
-	10	xyz
+	12 Abc
+	11 cd
+	10 xyz
 
 	Output
 	{12:"Abc", 11:"cd", 10:"xyz"}
@@ -145,7 +149,7 @@
 
 >Reference1: [For loops](https://youtu.be/llguiJHU0kk)
 
->Reference2: [Range and While](https://youtu.be/Neir-vgPyxw)
+>Reference2: [Range and While Loops](https://youtu.be/Neir-vgPyxw)
 
 1. Write a program to sort the elements of a list in ascending order.
 ```
@@ -156,7 +160,7 @@
 	[1,2,4,7,9,12,13,14]
 ```
 
-2. Write a python program that takes two lists and returns True if they have at least one common member.
+2. Write a python program that takes two lists and returns True if they have at least one common element.
 ```
 	#Input Lists
 	list1 : [1,2,3,4,5]
@@ -164,11 +168,12 @@
 
 	#Output
 	True
+	
 	# As 5 is the common element
 	# Must return False if no common elements
 ```
 
-3. Write a program to create a dictionary of numbers and their squares as a key value pair respectively for all the numbers below the specified input.
+3. Write a program to create a dictionary of numbers and their squares, as a key value pair respectively, for all the numbers below the specified input.
 ```
 	#Input number:
 	8
@@ -177,7 +182,7 @@
 	{1:1, 2:4, 3:9, 4:16, 5:25, 6:36, 7:49}
 ```
 
-4. Write a python program to generate a list of square of the numbers in the range (1,5) both included.
+4. Write a python program to generate a list of squares of the numbers in the range (1,5) including the upperlimit.
 ```
 	#Input
 	No input is taken from the user
@@ -191,29 +196,30 @@
 
 >Reference: [Condtitional Statements](https://youtu.be/bk22K1m0890)
 
-1. Write a python program to add a key value pair to the dictionary if the key does not exist in the given dictionary.
+1. Write a python program to add a key value pair to the dictionary ONLY if the key does not exist in the given dictionary.
 ```
-	#Input Dictionary
+	#Given Dictionary
 	{'a':"Hello",'b':"Hey", 3:"Hi"}
 
-	Inputs in the console(command prompt) should like:
+	#Inputs in the console(command prompt) should like:
 	Key Value
 	3 Speckbit
 	c Exploratories
 	m World
+	b Boo
 
 	#Output 
-	{'a':"Hello",'b':"Hey", 3:"Hi", 'c':"Speckbit", 'm':"Exploratories"}
+	{'a':"Hello",'b':"Hey", 3:"Hi", 'c':"Exploratories", 'm':"World"}
 ```
 
-2. Write a program to find if a given element is present in a given list.
+2. Write a program to find if a given element is present in the list.
 ```
-	Search Term
-	"Hello"
-
-	#Input List
+	#Given List
 	["Hello", 1, 1.234, "My_World"]
 
+	#Input
+	"Hello"
+	
 	#Output
 	True --> if present
 	False --> if not present
@@ -224,7 +230,7 @@
 
 >Reference1: [Function Basics](https://youtu.be/j2xhtI0WTew)
 
->Reference2: [Returning to function](https://youtu.be/xRIzPZlei9I)
+>Reference2: [Returning a value from a function](https://youtu.be/xRIzPZlei9I)
 
 >Reference3: [What are arguments and using arguments](https://youtu.be/mwr1AtpLMpI)
 
@@ -266,16 +272,18 @@
 
 >Note: Refer tutorial videos mentioned in functions part.
 
-1. Write a function to add two elements which are passed as arguments to the function if they are of the same data type or if they are of different data types print an error message.
+1. Write a function to add two elements which are passed as arguments to the function, Add them if they are of the same data type else, if they are of different data types print an error message.
 ```
 	#Input
-	Values passed to the function arguments- 2,2
-
+	2 2
+	2 hello
+	hello world
+	
 	#Ouput
 	4
+	Not possible
+	helloworld
 
-	If they are not of the same datatype print-
-	"Error: The values passed are not of same datatpye"
 ```
 
 
