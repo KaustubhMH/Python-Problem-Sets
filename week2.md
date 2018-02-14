@@ -1,6 +1,6 @@
-#Mini Projects in Python
-
-###Projects on Classes and Functions
+# Mini Projects in Python
+ 
+### Projects on Classes and Functions
 
 1. Write a To Do List Manager console application, using classes in Python that let's a user perform the following: **
 	a. Create new To Do List
