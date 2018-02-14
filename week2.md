@@ -26,6 +26,7 @@ Mini Projects in Python
 	   	When main.py is executed the application must ask the user what to do. 
 	   	Based on the input perform the required action.
 
+
 2. Write a Meeting Manager console application, using classes in Python which performs the following:
 	a. Check available time slots and display those time slots to the user
 	b. Ask for a time slot from the user
@@ -49,6 +50,7 @@ Mini Projects in Python
 		When the script is executed, the application must do whatever the user asks to do.
 		Based on the input, perform the required action.
 
+
 3. Write a Console Game, using classes in Python which performs the following:
 	a. Create a 2 dimensional matrix and enter random numbers in the size of 8x8 format.
 	b. Check take an input from a user.
@@ -69,6 +71,7 @@ Mini Projects in Python
 		When the script is executed, the application must do whatever the user asks to do.
 		Based on the input, perform the required action.
 
+
 4. Write an application to detect the points where a rocket launched towards Mars has reached, using classes in Python which performs the following:
 	a. Create a dictionary with parameters, distance as key and reach point as value.
 	b. Take input as object from user in terms of distance travelled by the rocket. 
@@ -84,6 +87,7 @@ Mini Projects in Python
 	- Methods
 		Discover what methods you can write and try to figure out the logic of how you can go ahead with the problem. If you find any difficulty, feel free to contact us and schedule a Skpye Call or you can schedule a meeting with us at our office.
 
+
 5. Create an hierarchy of classes - abstract class Employee and subclasses HourlyEmployee, SalariedEmployee, Manager and Executive. Every one's pay is calculated 
    differently, research a bit about it. After you've established an employee hierarchy, create a Company class that allows you to manage the employees. You should be able to hire, fire and raise employees.
 
@@ -92,7 +96,7 @@ Mini Projects in Python
    Try to figure out everything in this problem. If you face any difficulty you know what you should do. 
 
 
-Try solving all the problems. These problems are framed in such a way that you will get competent with the concepts of Functions and Classes after solving all these problems. 
+> Try solving all the problems. These problems are framed in such a way that you will get competent with the concepts of Functions and Classes after solving all these problems. 
 
 
-You will have to compulsorily solve 3 problems. You will not be needing more than 5 hours over the duration of 10 days.
+> You will have to compulsorily solve 3 problems. You will not be needing more than 5 hours over the duration of 10 days.
