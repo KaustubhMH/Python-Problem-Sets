@@ -95,4 +95,4 @@ Mini Projects in Python
 Try solving all the problems. These problems are framed in such a way that you will get competent with the concepts of Functions and Classes after solving all these problems. 
 
 
-You will have to compulsorily solve 3 problems. 
+You will have to compulsorily solve 3 problems. You will not be needing more than 5 hours over the duration of 10 days.
