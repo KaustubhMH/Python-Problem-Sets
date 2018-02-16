@@ -41,15 +41,18 @@
 	**Technical Specifications:**
 	Write a Python Class namely 'MeetingManager' to manage all data and functionalities of the application.
 	
-   - Attributes
+       - Attributes
+       
 		- **dictionary_name:** is a string that stores all the time-slots available to schedule a meeting.
 		- **input_from_user:** take a key from the user and print the message saying "this time-slot has been allocated to you".
 		- **dictionary_name2:** append this dictionary with the time-slots already set and remove that key-value pair from dictionary-name.
-   - Methods
+       - Methods
+       
 		- **time_view**: when called gives the available time slots.
 		- **schedule**: when called schedules a meeting with respect to the available time slots and print the message to say the meeting is scheduled.
 
-   - How it works:
+       - How it works:
+       
 		1. Create a module with the specified class and import it in another script where your application logic lies.
 		2. When the script is executed, the application must do whatever the user asks to do.
 		3. Based on the input, perform the required action.
@@ -63,16 +66,19 @@
 
 	**Technical Specifications**:
 	 
-   Write a Python class namely 'ConsoleGame' to manage all the data and functionalities of the application.
+  	 Write a Python class namely 'ConsoleGame' to manage all the data and functionalities of the application.
 
-   - Attributes
+        - Attributes
+	
 		**list_name**: A 2D list to store all the values.
 		**input_from_user**: takes an integer value and stores it in a variable
-
-   - Methods
+		
+	- Methods
+	 
 		**run**: executes the program in this one function. The process carried out is, to compare the input number with all the elements in the 2D list. If the input number is found in the 2D list, print a message saying "You lost! :P". Else if the input number is not found print a message saying "Yay! You won! :)".
 
-   - How it works:
+	- How it works:
+   
 		Create a module with the specified class and import it in another script where your application logic lies.
 		When the script is executed, the application must do whatever the user asks to do.
 		Based on the input, perform the required action.
