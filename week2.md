@@ -72,8 +72,8 @@ Write a python class namely 'ToDoList' to manage all data and functionalities of
 
 - Attributes
 
-	**list_name**: A 2D list to store all the values.
-	**input_from_user**: takes an integer value and stores it in a variable
+	- **list_name**: A 2D list to store all the values.
+	- **input_from_user**: takes an integer value and stores it in a variable
 		
 - Methods
 	 
