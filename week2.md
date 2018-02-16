@@ -9,7 +9,7 @@
 	 4. See the list of all tasks when needed.
 
 
-   	- **Technical Specifications:**
+   **Technical Specifications:**
    	
 	Write a python class namely 'ToDoList' to manage all data and functionalities of the application.
    
