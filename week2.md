@@ -3,10 +3,10 @@
 ### Projects on Classes and Functions
 
 1. Write a To Do List Manager console application, using classes in Python that let's a user perform the following: **
-	a. Create new To Do List
-	b. Add a new task to the list
-	c. Mark a particular task as done.
-	d. See the list of all tasks when needed.
+	-a. Create new To Do List
+	-b. Add a new task to the list
+	-c. Mark a particular task as done.
+	-d. See the list of all tasks when needed.
 
 
    	- Technical Specifications:
