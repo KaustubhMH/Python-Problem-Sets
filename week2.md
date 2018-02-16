@@ -2,31 +2,32 @@
  
 ### Projects on Classes and Functions
 
-1. Write a To Do List Manager console application, using classes in Python that let's a user perform the following: **
-	-a. Create new To Do List
-	-b. Add a new task to the list
-	-c. Mark a particular task as done.
-	-d. See the list of all tasks when needed.
+1. Write a To Do List Manager console application, using classes in Python that let's a user perform the following: 
+	 1. Create new To Do List
+	 2. Add a new task to the list
+	 3. Mark a particular task as done.
+	 4. See the list of all tasks when needed.
 
 
-   	- Technical Specifications:
-   		Write a python class namely 'ToDoList' to manage all data and functionalities of the application.
+   	- **Technical Specifications:**
+   	
+	Write a python class namely 'ToDoList' to manage all data and functionalities of the application.
    
    	- Attributes
-   		list_name: is a 'string' that stores the to_do lists' name.
-   		to_do: must be a list of all the to do statements.
-   		done: Must be a list of all the completed to dos.
+   		- list_name: is a 'string' that stores the to_do lists' name.
+   		- to_do: must be a list of all the to do statements.
+   		- done: Must be a list of all the completed to dos.
 
    	- Methods
-   		add: when called on the to_do_list object, should prompt for a new task and append it to the to_do attribute.
-   		mark_done: when called on a particular task from to_do attribute, should move the element to the done attribute.
-   		see_tasks: when called shows a list of all the tasks under respective titles i.e., "TO DO" and "DONE"
+   		- add: when called on the to_do_list object, should prompt for a new task and append it to the to_do attribute.
+   		- mark_done: when called on a particular task from to_do attribute, should move the element to the done attribute.
+   		- see_tasks: when called shows a list of all the tasks under respective titles i.e., "TO DO" and "DONE"
 
 
    	- How it works:
-   		Create a module with the specified class and import it in an another script which is called 'main.py' where your application logic lies.
-	   	When main.py is executed the application must ask the user what to do. 
-	   	Based on the input perform the required action.
+   		1. Create a module with the specified class and import it in an another script which is called 'main.py' where your application logic lies.
+	   	2. When main.py is executed the application must ask the user what to do. 
+	   	3. Based on the input perform the required action.
 
 
 2. Write a Meeting Manager console application, using classes in Python which performs the following:
