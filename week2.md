@@ -29,6 +29,7 @@
 	   	2. When main.py is executed the application must ask the user what to do. 
 	   	3. Based on the input perform the required action.
 
+-----------------------------------------------------------------------------------------------------------------------------
 
 2. Write a Meeting Manager console application, using classes in Python which performs the following:
 	1. Check available time slots and display those time slots to the user
@@ -54,6 +55,7 @@
 		2. When the script is executed, the application must do whatever the user asks to do.
 		3. Based on the input, perform the required action.
 
+-----------------------------------------------------------------------------------------------------------------------------
 
 3. Write a Console Game, using classes in Python which performs the following:
 	a. Create a 2 dimensional matrix and enter random numbers in the size of 8x8 format.
@@ -75,6 +77,7 @@
 		When the script is executed, the application must do whatever the user asks to do.
 		Based on the input, perform the required action.
 
+-----------------------------------------------------------------------------------------------------------------------------
 
 4. Write an application to detect the points where a rocket launched towards Mars has reached, using classes in Python which performs the following:
 	a. Create a dictionary with parameters, distance as key and reach point as value.
@@ -91,6 +94,7 @@
 	- Methods
 		Discover what methods you can write and try to figure out the logic of how you can go ahead with the problem. If you find any difficulty, feel free to contact us and schedule a Skpye Call or you can schedule a meeting with us at our office.
 
+-----------------------------------------------------------------------------------------------------------------------------
 
 5. Create an hierarchy of classes - abstract class Employee and subclasses HourlyEmployee, SalariedEmployee, Manager and Executive. Every one's pay is calculated 
    differently, research a bit about it. After you've established an employee hierarchy, create a Company class that allows you to manage the employees. You should be able to hire, fire and raise employees.
