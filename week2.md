@@ -31,27 +31,28 @@
 
 
 2. Write a Meeting Manager console application, using classes in Python which performs the following:
-	a. Check available time slots and display those time slots to the user
-	b. Ask for a time slot from the user
-	c. Schedule a time to a user
-	d. Send a message saying "meeting has been scheduled"
+	1. Check available time slots and display those time slots to the user
+	2. Ask for a time slot from the user
+	3. Schedule a time to a user
+	4. Send a message saying "meeting has been scheduled"
 
-	- Technical Specifications:
-		Write a Python Class namely 'MeetingManager' to manage all data and functionalities of the application.
+   **Technical Specifications:**
+	
+	Write a Python Class namely 'MeetingManager' to manage all data and functionalities of the application.
 
 	- Attributes
-		dictionary_name: is a string that stores all the time-slots available to schedule a meeting.
-		input_from_user: take a key from the user and print the message saying "this time-slot has been allocated to you".
-		dictionary_name2: append this dictionary with the time-slots already set and remove that key-value pair from dictionary-name.
+		- **dictionary_name:** is a string that stores all the time-slots available to schedule a meeting.
+		- **input_from_user:** take a key from the user and print the message saying "this time-slot has been allocated to you".
+		- **dictionary_name2:** append this dictionary with the time-slots already set and remove that key-value pair from dictionary-name.
 
 	- Methods
-		time_view: when called gives the available time slots.
-		schedule: when called schedules a meeting with respect to the available time slots and print the message to say the meeting is scheduled.
+		- time_view: when called gives the available time slots.
+		- schedule: when called schedules a meeting with respect to the available time slots and print the message to say the meeting is scheduled.
 
 	- How it works:
-		Create a module with the specified class and import it in another script where your application logic lies.
-		When the script is executed, the application must do whatever the user asks to do.
-		Based on the input, perform the required action.
+		1. Create a module with the specified class and import it in another script where your application logic lies.
+		2. When the script is executed, the application must do whatever the user asks to do.
+		3. Based on the input, perform the required action.
 
 
 3. Write a Console Game, using classes in Python which performs the following:
