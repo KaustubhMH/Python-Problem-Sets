@@ -1,4 +1,4 @@
-# Week 1 Problem Sets
+# Practice Problem Sets
 
 ### Strings:
 
